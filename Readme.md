@@ -20,9 +20,9 @@ let main argv =
 
     let instance = ARecord()
 
-    instance.FirstName <- "Ody"
-    instance.LastName <- "Mbegbu"
-    instance.Age <- 34
+    instance.FirstName <- "John"
+    instance.LastName <- "Doe"
+    instance.Age <- 13
     instance.DateOfBirth <- DateTime.Now
 
     printfn "%d" instance.Age
