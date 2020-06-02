@@ -1,0 +1,6 @@
+source https://api.nuget.org/v3/index.json
+
+nuget FSharp.Core
+
+github fsprojects/FSharp.TypeProviders.StarterPack src/ProvidedTypes.fsi
+github fsprojects/FSharp.TypeProviders.StarterPack src/ProvidedTypes.fs
